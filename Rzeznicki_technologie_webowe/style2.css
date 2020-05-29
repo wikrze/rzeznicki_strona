@@ -1,0 +1,32 @@
+@media (max-width:1300px)
+{
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #2D4053;
+        height: 250px;
+    }
+    .logo{ 
+        font-size:45px;
+    }
+    nav{
+        margin: auto;
+        margin-top: -20px;
+    }
+    li a{
+        font-size:20px;
+    }
+    section{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    figure{
+        margin: auto;
+    }
+}
